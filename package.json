@@ -2,7 +2,7 @@
     "name": "hbd",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://{caclm10}.github.io/{cindy-birthday}/",
+    "homepage": "https://caclm10.github.io/cindy-birthday/",
     "type": "module",
     "scripts": {
         "dev": "vite",

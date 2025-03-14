@@ -55,5 +55,12 @@ if (celebrateBtn) {
     celebrateBtn.addEventListener("click", triggerConfetti);
 }
 
+const musicBtn = document.querySelector("#musicBtn")!;
+const music = document.querySelector<HTMLAudioElement>("#music")!;
+musicBtn.addEventListener("click", () => {
+    music.paused ? music.play() : music.pause();
+    musicBtn.setAttribute("data-playing", String(!music.paused));
+});
+
 // Initial celebration
 setTimeout(triggerConfetti, 1000);
